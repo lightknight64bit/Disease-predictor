@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+*,*::before, *::after{
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+body{
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: -webkit-linear-gradient(90deg, #EC6F66 10%, #F3A183 90%);
+  
+  font-family:  'Roboto', sans-serif;
+
+}
+.description{
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 50px;
+  color: #000;
+  
+}
+
+
+.parent{
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+
+  
+  background:transparent;
+  padding:20px;
+  width:fit-content;
+  margin: 0 auto;
+ 
+  align-items: center;
+  border-radius: 25px;
+  height:fit-content;
+  
+}
+
+
+
+
+
+.parent button{
+  font-size: 50px;
+  outline: none;
+  border:none;
+  background-color: transparent;
+  color:#fff;
+  height:50px;
+  cursor:pointer;
+  width: 250px;
+  transition: all 0.4s ease-in-out;
+}
+
+.parent button:hover{
+  
+  color:rgb(241, 3, 3);
+  padding-top: 25px;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select{
+  padding-left: 10px;
+  border-radius: 20px;
+  border:none;
+  height:25px;
+  background: white;
+  -webkit-appearance: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color:#EC6F66;
+  overflow: hidden;
+  outline:none;
+}
+
+select:hover{
+  
+  border: none;
+  background-color: transparent;
+  color:#fff;
+  padding-left:20px;
+}
+
+select option{
+  overflow: hidden;
+  background-color: #EC6F66;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+}
+
+
