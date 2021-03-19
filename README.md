@@ -1,8 +1,8 @@
 # Disease-predictor
 This is a web based application used to predict diseases based on symptoms. The amount of diseases that can be predicted are limited and the AI is still ruddy. For accurate results please list as many symptoms as possible.
 
-The dataset used is [Kaggle Disease Symptom Prediction Dataset.](https://www.kaggle.com/itachi9604/disease-symptom-description-dataset)
-The site is deployed on heroku [Disease Predictor](https://disease-predictor2.herokuapp.com)
+The dataset used is [Kaggle Disease Symptom Prediction Dataset.](https://www.kaggle.com/itachi9604/disease-symptom-description-dataset)  
+The app is deployed on heroku [Disease Predictor](https://disease-predictor2.herokuapp.com)
 
 Here's a description of how the application looks like
 ![app description pic](https://raw.githubusercontent.com/lightknight64bit/Disease-predictor/master/images/app.png)
